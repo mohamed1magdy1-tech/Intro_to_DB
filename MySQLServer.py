@@ -2,11 +2,10 @@ import mysql.connector
 from mysql.connector import Error
 
 try:
-    # Connect to MySQL server without selecting a specific database
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password=""  # ← غيّر دي لو عندك باسورد
+        password=""
     )
 
     if connection.is_connected():
