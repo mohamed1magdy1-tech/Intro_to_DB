@@ -6,7 +6,7 @@ try:
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="your_mysql_password"  # ← غيّرها بالباسورد الحقيقي 
+        password="your_mysql_password"  # ← غيّرها بالباس الحقيقي
     )
 
     if connection.is_connected():
